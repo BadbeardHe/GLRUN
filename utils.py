@@ -6,6 +6,12 @@ PI = 3.14159265358979323846
 
 
 def processPixelStage2(m):
+    """
+        Tackling 3d tof artifacts through learning and the flat dataset
+        Guo, Qi, Iuri Frosio, Orazio Gallo, Todd Zickler, and Jan Kautz
+        European Conference on Computer Vision (ECCV), 2018
+        Project Page : https://research.nvidia.com/publication/2018-09_tackling-3d-tof-artifacts-through-learning-and-flat-dataset
+    """
     # m is (424, 512, 9)
     # the first three is measurement a
     # the second three is measurement b

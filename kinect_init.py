@@ -2,6 +2,13 @@
 #           Licensed under the CC BY-NC-SA 4.0 license
 #           (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). 
 
+"""
+    Tackling 3d tof artifacts through learning and the flat dataset
+    Guo, Qi, Iuri Frosio, Orazio Gallo, Todd Zickler, and Jan Kautz
+    European Conference on Computer Vision (ECCV), 2018
+    Project Page : https://research.nvidia.com/publication/2018-09_tackling-3d-tof-artifacts-through-learning-and-flat-dataset
+"""
+
 import numpy as np
 import pickle
 

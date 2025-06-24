@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
-Download [FLAT dataset](https://github.com/NVlabs/FLAT.git). 
+Download [FLAT dataset](https://github.com/NVlabs/FLAT.git). Directories `noise`, `ideal` and `list/all` under `FLAT/kinect/` are necessary.
 
 
 ## Basic Usage

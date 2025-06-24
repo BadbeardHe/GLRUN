@@ -1,0 +1,2 @@
+This directory contains files provided by Guo et al. (2018) in their work "Tackling 3D ToF artifacts through learning and the FLAT dataset" (ECCV 2018).
+Project Page : https://research.nvidia.com/publication/2018-09_tackling-3d-tof-artifacts-through-learning-and-flat-dataset
