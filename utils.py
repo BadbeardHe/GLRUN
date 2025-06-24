@@ -4,6 +4,7 @@ from scipy import ndimage
 
 PI = 3.14159265358979323846
 
+
 def processPixelStage2(m):
     # m is (424, 512, 9)
     # the first three is measurement a

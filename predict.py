@@ -1,9 +1,9 @@
 ##################################
-# Train glrun with FLAT dataset
+# Predict glrun with FLAT dataset
 # Dataset: FLAT
-# Input: kinect iq
-# Output: denoised kinect iq
-# Updated by Jin Zeng, 20230808
+# Input: noisy iq
+# Output: denoised iq and depth
+# Updated by Jin Zeng, 20240623
 ##################################
 import os
 import time

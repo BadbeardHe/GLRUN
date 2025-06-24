@@ -3,7 +3,7 @@
 # Dataset: FLAT
 # Input: kinect iq
 # Output: depth with ideal_depth produced by LIB2 as GT
-# Updated by Jin Zeng, 20230807
+# Updated by Jin Zeng, 20240623
 ##################################
 import os
 import time

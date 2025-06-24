@@ -1,6 +1,7 @@
 # GLRUN: Graph Laplacian Regularization Unrolling Network
-A PyTorch implementation of Depth Denoising with Confidence-Aware Diffusion model. Original work: [Jia et al.]("https://ieeexplore.ieee.org/abstract/document/10878265")\
+A PyTorch implementation of Depth Denoising with Confidence-Aware Diffusion model. Original work: [Deep Unrolled Graph Laplacian Regularization for Robust Time-of-Flight Depth Denoising](https://ieeexplore.ieee.org/abstract/document/10878265)\
 ![GLRUN](imgs/cmp.png "GLRUN")
+
 ## Environment Setup
 ### Clone this directory
 ```
@@ -30,14 +31,14 @@ python -u train.py \
 ```
 
 ### Inferencing
-Run the following command to inference a single scene:
+Run the following command to denoise noisy iq:
 ```
 python predict.py \
-    -in "/Path/to/noise/IQ" \
+    -in "/Path/to/noise/IQ/dir" \
     -ls "/Path/to/test/list" \
-    -out "/Path/to/predicted/IQ" \
-    -out_mu "/Path/to/predicted/mu" \
-    -out_d "/Path/to/predicted/Depth" \
+    -out "/Path/to/predicted/IQ/dir" \
+    -out_mu "/Path/to/predicted/mu/dir" \
+    -out_d "/Path/to/predicted/Depth/dir" \
     -m "/Path/to/trained/GLRUN/model" \
 ```
 
@@ -49,6 +50,15 @@ python eval.py \
    -gt "/Path/to/ideal/depth" \
    -out "/Path/to/result/dir" \
    -v "Version"
+```
+
+### Remove noise of a single image using a trained GLRUN
+```
+python predict_single.py \
+    -in "demo/raw" \
+    -out_iq "./denoised_iq" \
+    -out_d "./denoised_depth" \ 
+    -m "models/checkpoint_best.pth"
 ```
 
 # References
