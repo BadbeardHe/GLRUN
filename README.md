@@ -1,5 +1,5 @@
 # GLRUN: Graph Laplacian Regularization Unrolling Network
-A PyTorch implementation of Depth Denoising with Confidence-Aware Diffusion model. Original work: [Deep Unrolled Graph Laplacian Regularization for Robust Time-of-Flight Depth Denoising](https://ieeexplore.ieee.org/abstract/document/10878265)\
+A PyTorch implementation of Depth Denoising with Deep Unrolled Graph Laplacian Regularization. Original work: [Deep Unrolled Graph Laplacian Regularization for Robust Time-of-Flight Depth Denoising](https://ieeexplore.ieee.org/abstract/document/10878265)\
 ![GLRUN](imgs/cmp.png "GLRUN")
 
 ## Environment Setup
